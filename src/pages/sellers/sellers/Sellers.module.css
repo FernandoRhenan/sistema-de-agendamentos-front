@@ -1,0 +1,198 @@
+.sellers {
+    position: relative;
+    color: #444;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    overflow: auto;
+}
+
+.bg {
+    background-image: url(../../../../public/assets/calendar_bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 100vh;
+}
+
+.h1sellers {
+    margin-top: 40px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.registerNewSeller {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    border: solid 3px gainsboro;
+    color: #444;
+    max-width: 450px;
+    font-size: 1.4rem;
+    border-radius: 8px;
+    transition: 250ms;
+    cursor: pointer;
+    margin: 50px auto;
+}
+
+.registerNewSeller:hover {
+    background-color: green;
+    border: 3px solid darkgreen;
+    color: white;
+}
+
+.icon svg {
+    position: relative;
+    top: 3px;
+    left: 8px;
+    padding: 0 8px;
+    box-sizing: content-box;
+}
+
+.registerContainer,
+.updateContainer {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    box-shadow: 0 0 10px -5px black;
+}
+
+.registerBox {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+    width: 600px;
+    height: 400px;
+    background-color: ghostwhite;
+    border-radius: 10px;
+    box-shadow: 0 0 10px -5px black;
+}
+
+.updateBox {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+    width: 600px;
+    height: 260px;
+    background-color: ghostwhite;
+    border-radius: 10px;
+    box-shadow: 0 0 10px -5px black;
+}
+
+.closeIcon {
+    display: block;
+    text-align: right;
+}
+
+.closeIcon svg {
+    margin-top: 12px;
+    margin-right: 12px;
+    font-size: 1.4rem;
+    cursor: pointer;
+    transition: 200ms;
+}
+
+.closeIcon svg:hover {
+    color: #eb0000;
+}
+
+.registerBox form,
+.updateBox form {
+    width: 400px;
+    margin: auto;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.registerBox form label,
+.updateBox form label {
+    display: flex;
+    flex-direction: column;
+}
+
+.registerBox form label input,
+.updateBox form label input {
+    font-size: 1rem;
+    width: 100%;
+    height: 30px;
+    padding-left: 3px;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid #444;
+}
+
+.sellers_container {
+    width: 80%;
+    min-width: 250px;
+    margin: 80px auto;
+}
+
+.sellers_container ul {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    justify-content: center;
+
+}
+
+.sellers_container ul li {
+
+    gap: 20px;
+    word-break: break-all;
+    background-color: ghostwhite;
+    border-radius: 10px;
+    box-shadow: 0 0 10px -5px black;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding: 10px;
+}
+
+.buttonArea {
+    display: flex;
+    gap: 10px;
+}
+
+.buttonArea button {
+    font-weight: bold;
+    padding: 10px 7px;
+    width: 110px;
+    border-radius: 5px;
+    border: solid 3px gainsboro;
+    transition: 250ms;
+    cursor: pointer;
+    font-size: .9rem;
+}
+
+.editBtn:hover {
+    background-color: #ff9500;
+    border: solid 3px #e68600;
+    color: white;
+}
+
+.deleteBtn:hover {
+    background-color: #ed0000;
+    border: solid 3px #c00000;
+    color: white;
+}

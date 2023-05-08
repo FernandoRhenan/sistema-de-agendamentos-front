@@ -1,0 +1,26 @@
+.clientNavBar {
+    position: fixed;
+    top: 0;
+    background: linear-gradient(to right bottom, #f10000, #cb0000);
+    box-shadow: 0 0 10px -2px black;
+    width: 100%;
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: ghostwhite;
+}
+
+.clientNavBar h1 {
+    font-size: 1.6rem;
+}
+
+.clientNavBar span {
+    padding: 0 40px;
+    font-size: 1.3rem;
+}
+
+.iconMenu {
+    transition: 350ms;
+    cursor: pointer;
+}

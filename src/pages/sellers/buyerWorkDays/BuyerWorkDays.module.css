@@ -1,0 +1,18 @@
+.buyerWorkDays {
+    color: #444;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    height: calc(100vh - 90px);
+    overflow: auto;
+}
+
+.bg {
+    background-image: url(../../../../public/assets/calendar_bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+    max-width: 1000px;
+}

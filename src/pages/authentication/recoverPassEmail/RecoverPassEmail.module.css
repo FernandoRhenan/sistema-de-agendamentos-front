@@ -1,0 +1,27 @@
+.recoverPassword {
+    color: #444;
+    width: 100%;
+    padding: 0 40px;
+    text-align: center;
+    margin: 50px auto;
+}
+
+.recoverPassword form label {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+}
+
+.recoverPassword form label input {
+    height: 30px;
+    width: 400px;
+    background-color: transparent;
+    border: none;
+    border-bottom: solid 3px grey;
+    outline: none;
+    font-size: 1.1rem;
+    padding-left: 5px;
+}

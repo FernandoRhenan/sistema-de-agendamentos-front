@@ -1,0 +1,47 @@
+.confirmEmail {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    margin: 80px auto;
+    color: #444;
+}
+
+.confirmEmail form input {
+    font-weight: bold;
+    text-align: center;
+    height: 35px;
+    width: 192px;
+    border: none;
+    border-bottom: solid 2px;
+    outline: none;
+    font-size: 2rem;
+    padding-left: 3px;
+    margin-bottom: 20px;
+}
+
+.confirmEmail form label {
+    display: flex;
+    flex-direction: column;
+}
+
+.confirmEmail form label span {
+    margin-bottom: 10px;
+}
+
+.confirmEmail form button {
+    display: block;
+    margin: auto;
+    height: 35px;
+    margin-bottom: 50px;
+}
+
+.formArea {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.formArea h1,
+.formArea p {
+    margin-bottom: 30px;
+}

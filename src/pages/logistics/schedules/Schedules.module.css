@@ -1,0 +1,90 @@
+.schedules {
+    display: flex;
+    justify-content: center;
+    color: #444;
+    width: 100%;
+    height: calc(100vh - 90px);
+    overflow: auto;
+}
+
+.bg {
+    background-image: url(../../../public/assets/calendar_bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+    max-width: 1000px;
+}
+
+.textSchedule {
+    display: inline-block;
+    width: 100%;
+    margin-top: 30px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.schedules li {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 30px;
+    background: linear-gradient(to left, white, #f8f8f8);
+    box-shadow: 0 0 10px -5px black;
+    border-radius: 15px;
+    font-size: 1.1rem;
+    padding: 20px;
+    padding-top: 15px;
+}
+
+.scheduleBox {
+    display: flex;
+    flex-direction: column;
+}
+
+.schedules button {
+    font-size: 1rem;
+    margin-right: 5px;
+    border-radius: 5px;
+    padding: 7px 12px;
+    border: solid 3px gainsboro;
+    transition: 250ms;
+    margin-top: 15px;
+    background-color: transparent;
+}
+
+.schedules button:hover {
+    cursor: pointer;
+    color: white;
+}
+
+.hoverDelete:hover {
+    background-color: #dd0000;
+    border: solid 3px #bb0000;
+}
+
+
+.day {
+    font-size: 2rem;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.day::first-letter,
+.frequency::first-letter {
+    text-transform: uppercase;
+}
+
+.date,
+.frequency {
+    font-size: 1.3rem;
+    border-bottom: solid 2px gainsboro;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+
+.time,
+.boxQnt,
+.currentDelivery {
+    margin-bottom: 10px;
+}

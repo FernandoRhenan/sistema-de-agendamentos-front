@@ -1,0 +1,179 @@
+.company {
+    color: #444;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    height: calc(100vh - 90px);
+    overflow: auto;
+}
+
+.bg {
+    background-image: url(../../../public/assets/calendar_bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+    max-width: 1000px;
+}
+
+.textData {
+    font-weight: bold;
+    padding: 5px;
+    display: block;
+    border-bottom: solid 2px #444;
+}
+
+.company div ul,
+.company form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: start;
+    padding: 20px;
+}
+
+.company div ul li,
+.company form label {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.data {
+    font-weight: bold;
+}
+
+.company_container {
+    margin: auto;
+    margin-top: 70px;
+    width: 600px;
+    background-color: whitesmoke;
+    box-shadow: 0 0 10px -5px black;
+    border-radius: 20px;
+    display: flex;
+}
+
+.box1 {
+    width: 50%;
+    word-break: break-all;
+}
+
+.box2 {
+    width: 50%;
+    word-break: break-all;
+}
+
+.box2 input {
+    background-color: transparent;
+    outline: none;
+    border: none;
+    height: 20px;
+    width: 250px;
+    border-bottom: solid 2px #444;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.box2 button,
+.changePassword form button {
+    font-size: 1rem;
+    border-radius: 5px;
+    padding: 7px 12px;
+    border: solid 3px gainsboro;
+    transition: 250ms;
+    background-color: transparent;
+    margin-top: 7px;
+    cursor: pointer;
+}
+
+.box2 button:hover,
+.changePassword form button:hover {
+    border: solid 3px #ff8400;
+    background-color: #ff9d00;
+    color: white;
+}
+
+.dangerZone {
+    margin: 150px auto;
+    padding-bottom: 200px;
+    display: flex;
+    flex-direction: column;
+}
+
+.dangerZone svg {
+    position: relative;
+    top: 3px;
+}
+
+.dangerZone h2 {
+    color: #ff8400;
+    display: inline-block;
+    border-bottom: solid 4px #ff8400;
+    padding-bottom: 2px;
+}
+
+.text {
+    display: block;
+    margin: 50px;
+    font-weight: bold;
+    font-size: 1.4rem;
+}
+
+.changePassword form {
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+    align-items: start;
+    justify-content: center;
+    width: 500px;
+    margin: auto;
+}
+
+.changePassword form input {
+    background-color: transparent;
+    outline: none;
+    border: none;
+    height: 30px;
+    width: 500px;
+    border-bottom: solid 2px #444;
+    font-size: 1rem;
+}
+
+.deleteButton {
+    padding: 15px 0;
+    font-size: 1.2rem;
+    width: 300px;
+    margin: auto;
+    border: solid 3px gainsboro;
+    color: #444;
+    border-radius: 5px;
+    background-color: transparent;
+    cursor: pointer;
+    transition: 400ms;
+}
+
+.deleteButton:hover {
+    border: solid 3px #a50000;
+    color: white;
+    background-color: #eb0000;
+    font-weight: bold;
+}
+
+.keyIcon svg {
+    position: relative;
+    padding: 2px;
+    font-size: 21px;
+    box-sizing: content-box;
+    border-bottom: solid 2px #444;
+    transition: 250ms;
+    color: grey;
+}
+
+.keyIcon svg:hover{
+color: #444;
+}
+
+.inputBox {
+    display: flex;
+}

@@ -1,0 +1,53 @@
+.contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #444;
+    width: 100%;
+    text-align: center;
+}
+
+.contact h1 {
+    margin: 70px 0;
+}
+
+.contact ul {
+    padding: 30px;
+    width: 400px;
+    margin: 60px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.contact span {
+    font-size: 1.2rem;
+}
+
+.contact li span {
+    padding: 5px;
+}
+
+.contact .value {
+    font-weight: bold;
+}
+
+
+.fastContact {
+    margin: 20px;
+    padding-bottom: 150px;
+}
+
+
+.fastContact a svg {
+    margin: 10px;
+    color: white;
+    font-size: 4rem;
+    padding: 8px;
+    border-radius: 27%;
+    transition: 250ms;
+}
+
+.fastContact a svg:hover {
+    translate: 0 -5px;
+}

@@ -1,0 +1,78 @@
+.allSellerSchedules ul {
+    padding: 0;
+    width: 100%;
+    margin: 30px;
+    color: #555;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 300px);
+    justify-content: center;
+    gap: 15px;
+}
+
+p {
+    text-align: center;
+    margin-top: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #555;
+    cursor: pointer;
+}
+
+.scheduleBox {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 128px;
+    background: linear-gradient(to right, white, #f5f5f5);
+    border-radius: 10px;
+    box-shadow: 0 0 10px -5px black;
+}
+
+
+.name {
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    background: linear-gradient(to right, #f10000, #cb0000);
+    color: white;
+    padding: 5px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+
+.key {
+    padding-left: 5px;
+    font-size: 1rem;
+    margin-bottom: 3px;
+}
+
+.value {
+    font-size: 1.1rem;
+    margin-bottom: 3px;
+    font-weight: bold;
+}
+
+.screenDisplay {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.list {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.list h1 {
+    margin-top: 20px;
+}
+
+.list li {
+    margin: 0 20px;
+}

@@ -1,0 +1,47 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+}
+
+ul {
+  padding: 0;
+  list-style: none;
+  margin: none;
+}
+
+.active {
+  background-color: #444;
+  color: white;
+}
+
+.active svg{
+  color: #ffdd00;
+}
+
+.btn {
+  width: 110px;
+  height: 1cm;
+  font-size: 1.2rem;
+  color: #000;
+  border: solid 1px #000;
+  border-radius: 4px;
+  transition: 200ms;
+}
+
+.btn:hover,
+.btn-long:hover {
+  cursor: pointer;
+  background-color: #eee;
+}
+
+.btn-long {
+  width: 170px;
+  height: 1cm;
+  font-size: 1.2rem;
+  color: #000;
+  border: solid 1px #000;
+  border-radius: 4px;
+  transition: 200ms;
+}

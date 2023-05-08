@@ -1,0 +1,97 @@
+.slider {
+    transition: 350ms;
+    position: fixed;
+    background: linear-gradient(to right, white, #eee);
+    box-shadow: 0 10px 15px grey;
+    top: 90px;
+    left: calc(100% - 350px);
+    height: 100vh;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #444;
+}
+
+.area_container {
+    display: flex;
+    align-items: center;
+    height: 60px;
+    width: 100%;
+    border-bottom: solid 1px #444;
+}
+
+.activedArea {
+    font-size: 1.3rem;
+    font-weight: bold;
+    width: 50%;
+    height: 100%;
+    line-height: 60px;
+    background-color: #444;
+    color: white;
+    text-align: center;
+}
+
+.disabledArea {
+    font-size: 1.3rem;
+    font-weight: bold;
+    width: 50%;
+    height: 100%;
+    line-height: 60px;
+    text-align: center;
+}
+
+.sliderNav {
+    height: 242px;
+    margin: 30px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    gap: 20px;
+    border-bottom: solid 1px black;
+}
+
+.sliderNavGeral {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+
+}
+
+.sliderNav li a,
+.sliderNavGeral li a {
+    text-decoration: none;
+    display: inline-block;
+    width: 300px;
+    font-size: 1.2rem;
+    padding: 7px;
+    padding-left: 20px;
+    border-radius: 5px;
+}
+
+.icon {
+    position: relative;
+    top: 3px;
+    right: 6px;
+}
+
+.slider button {
+    width: 300px;
+    height: 35px;
+    border-radius: 5px;
+    outline: none;
+    border: solid 3px #a50000;
+    color: white;
+    font-weight: bold;
+    font-size: 1rem;
+    background-color: #eb0000;
+    cursor: pointer;
+}
+
+.leaveIcon {
+    position: relative;
+    top: 3px;
+    left: 5px;
+}

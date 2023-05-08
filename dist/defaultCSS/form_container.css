@@ -1,0 +1,82 @@
+.form_container {
+    color: #444;
+    max-width: 660px;
+    width: 660px;
+    margin: 80px auto;
+    padding: 0 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form_container h2 {
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.form_container form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.form_container form label {
+    margin-bottom: 30px;
+}
+
+.form_container form label span {
+    font-weight: bold;
+}
+
+.form_container form input {
+    font-size: 1rem;
+    width: 100%;
+    height: 30px;
+    padding-left: 3px;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid #444;
+}
+
+.spanLink p {
+    display: inline-block;
+    margin-top: 40px;
+}
+
+.spanLink a {
+    color: blue;
+}
+
+.obs {
+    border: solid 3px #ff8400;
+    background-color: #ff9d00;
+    color: black;
+    font-weight: bold;
+    padding: 5px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+
+.small_text {
+    display: block;
+    font-size: .7rem;
+}
+
+.keyIcon svg {
+    bottom: 1px;
+    position: relative;
+    padding: 5px;
+    font-size: 20px;
+    box-sizing: content-box;
+    border-bottom: solid 2px #444;
+    transition: 250ms;
+    color: grey;
+}
+
+.keyIcon svg:hover{
+color: #444;
+}
+
+.inputBox {
+    display: flex;
+}

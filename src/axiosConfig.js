@@ -1,5 +1,5 @@
 import axios from "axios";
 
 export const api = axios.create({
-    baseURL: "https://sistema-de-agendamentos.onrender.com",
+    baseURL: "http://localhost:3000",
 });

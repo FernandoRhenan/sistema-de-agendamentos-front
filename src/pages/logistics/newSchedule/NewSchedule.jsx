@@ -23,8 +23,7 @@ const NewSchedule = () => {
 
   const [avaibleTime, setAvaibleTime] = useState([])
   const { minDate, maxDate } = setDateLimits()
-  console.log(minDate)
-  console.log(maxDate)
+
   const [load, setLoad] = useState(false)
 
   const [date, setDate] = useState('')
